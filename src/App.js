@@ -5,23 +5,21 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="face-container">
-          <img src={face01} className="App-logo" alt="logo" />
-          <img src={face02} className="App-logo" alt="logo" />
-        </div>
-        <img src={flowers} alt="El teu ram de flors" />
-        <a
-          className="App-link"
-          href="https://youtu.be/vGJTaP6anOU"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          FELIZ ANIVERSARI!
-        </a>
-      </header>
-    </div>
+    <main className="main">
+      <div className="face-container">
+        <img src={face01} className="head" alt="logo" />
+        <img src={face02} className="head" alt="logo" />
+      </div>
+      <img src={flowers} alt="El teu ram de flors" />
+      <a
+        className="link"
+        href="https://youtu.be/vGJTaP6anOU"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        FELIZ ANIVERSARI!
+      </a>
+    </main>
   );
 }
 
